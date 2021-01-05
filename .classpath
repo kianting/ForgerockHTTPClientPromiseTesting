@@ -1,151 +1,230 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path=""/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
-	<classpathentry exported="true" kind="lib" path="lib/activation-1.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/animal-sniffer-annotations-1.14.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/api-descriptor-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/caffeine-2.6.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/checker-qual-2.5.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/chf-client-apache-async-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/chf-client-apache-common-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/chf-http-core-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/chf-http-servlet-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/chf-oauth2-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/commons-codec-1.12.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/commons-io-2.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/commons-logging-api-1.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/config-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/contrib-http-framework-6.5.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/error_prone_annotations-2.1.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/esapiport-2013-12-04.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/FastInfoset-1.2.13.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/forgerock-audit-core-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/forgerock-audit-handler-csv-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/forgerock-audit-handler-elasticsearch-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/forgerock-audit-handler-jdbc-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/forgerock-audit-handler-jms-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/forgerock-audit-handler-json-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/forgerock-audit-handler-json-stdout-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/forgerock-audit-handler-splunk-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/forgerock-audit-handler-syslog-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/forgerock-audit-json-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/forgerock-util-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/gmbal-api-only-3.1.0-b001.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/grizzly-framework-2.3.36-forgerock-0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/grizzly-http-2.3.36-forgerock-0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/grizzly-http-server-2.3.36-forgerock-0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/groovy-all-2.4.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/guava-26.0-jre.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/guice-4.2.1-no_aop.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/guice-assistedinject-4.2.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/guice-multibindings-4.2.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/ha-api-3.1.9.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/httpasyncclient-osgi-4.1.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/httpclient-osgi-4.5.10.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/httpcore-osgi-4.4.12.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/i18n-core-1.4.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/i18n-slf4j-1.4.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/isorelax-20030108.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/ivy-2.4.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/j2objc-annotations-1.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jackson-annotations-2.10.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jackson-core-2.10.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jackson-databind-2.10.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jackson-module-jsonSchema-2.10.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/java-ipv6-0.14.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/javax.annotation-api-1.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/javax.jms-api-2.0.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/javax.mail-1.6.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/javax.websocket-api-1.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/javax.xml.soap-api-1.4.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jaxb-api-2.3.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jaxb-core-2.3.0.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jaxb-impl-2.3.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jaxb-xjc-2.3.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jaxrpc-api-1.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jaxrpc-impl-1.1.3_01-20160905.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jaxws-api-2.3.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jaxws-rt-2.3.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jcip-annotations-1.0-1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jcl-over-slf4j-1.7.21.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/joda-time-2.9.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/json-20090211.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/json-resource-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/json-resource-http-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/json-schema-core-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/json-web-token-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jsr181-api-1.0-MR1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jsr305-3.0.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/juel-api-2.2.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/juel-impl-2.2.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/jul-to-slf4j-1.7.21.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/logback-classic-1.2.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/logback-core-1.2.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/management-api-3.0.0-b012.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/metrics-core-3.2.5.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/metrics-json-3.2.5.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/mimepull-1.9.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/monitoring-api-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/monitoring-dropwizard-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/monitoring-http-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/monitoring-json-resource-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openam-audit-context-6.5.2.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openam-audit-core-6.5.2.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openam-certs-6.5.2.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openam-federation-library-6.5.2.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openam-guice-core-6.5.2.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openam-i18n-6.5.2.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openam-idpdiscovery-6.5.2.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openam-keystore-6.5.2.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openam-ldap-utils-6.5.2.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openam-liberty-schema-6.5.2.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openam-saml2-schema-6.5.2.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openam-shared-6.5.2.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openam-wsfederation-schema-6.5.2.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openam-xacml3-schema-6.5.2.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/opendj-core-6.5.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/opendj-grizzly-6.5.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openig-core-6.5.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openig-oauth2-6.5.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openig-openam-6.5.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openig-saml-6.5.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openig-servlet-6.5.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openig-toolkit-6.5.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openig-uma-6.5.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/openig-websocket-6.5.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/org.apache.servicemix.bundles.javax-inject-1_2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/policy-2.7.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/reactive-streams-1.0.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/relaxngDatatype-20020414.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/resolver-20050927.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/rxjava-2.1.9.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/saaj-impl-1.4.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/secrets-api-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/secrets-backend-keystore-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/secrets-backend-propertyresolver-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/security-24.0.20.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/simpleclient_common-0.0.21.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/simpleclient_dropwizard-0.0.21.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/simpleclient-0.0.21.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/slf4j-api-1.7.21.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/stax2-api-3.1.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/stax-ex-1.7.8.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/streambuffer-1.5.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/super-csv-2.4.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/swagger-models-1.5.16.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/tyrus-client-1.12.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/tyrus-container-grizzly-client-1.12.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/tyrus-core-1.12.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/tyrus-spi-1.12.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/validation-api-1.1.0.Final.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/woodstox-core-5.0.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/xmlsec-2.1.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="lib/xsdlib-20060615.jar"/>
+	<classpathentry kind="con" path="GROOVY_DSL_SUPPORT"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/animal-sniffer-annotations-1.18.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/annotations-4.1.1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/api-common-1.9.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/api-descriptor-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/auto-value-annotations-1.7.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/caffeine-2.8.5.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/checker-compat-qual-2.5.5.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/checker-qual-2.11.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/chf-client-apache-async-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/chf-client-apache-common-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/chf-http-core-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/chf-http-servlet-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/chf-oauth2-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/chf-vertx-7.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/commons-codec-1.13.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/commons-io-2.7.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/config-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/conscrypt-openjdk-uber-2.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/error_prone_annotations-2.3.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/esapiport-2013-12-04.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/FastInfoset-1.2.13.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/forgerock-audit-core-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/forgerock-audit-handler-csv-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/forgerock-audit-handler-elasticsearch-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/forgerock-audit-handler-jdbc-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/forgerock-audit-handler-jms-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/forgerock-audit-handler-json-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/forgerock-audit-handler-json-stdout-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/forgerock-audit-handler-splunk-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/forgerock-audit-handler-syslog-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/forgerock-audit-json-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/forgerock-util-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/gax-1.57.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/gax-grpc-1.57.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/gmbal-api-only-3.1.0-b001.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/google-auth-library-credentials-0.20.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/google-auth-library-oauth2-http-0.20.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/google-cloud-kms-1.39.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/google-http-client-1.35.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/google-http-client-jackson2-1.35.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/grizzly-framework-2.3.36-forgerock-0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/grizzly-http-2.3.36-forgerock-0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/grizzly-http-server-2.3.36-forgerock-0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/groovy-3.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/groovy-datetime-3.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/groovy-json-3.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/groovy-macro-3.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/groovy-nio-3.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/groovy-sql-3.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/groovy-templates-3.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/groovy-xml-3.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/grpc-alts-1.30.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/grpc-api-1.30.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/grpc-auth-1.30.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/grpc-context-1.30.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/grpc-core-1.30.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/grpc-grpclb-1.30.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/grpc-netty-shaded-1.30.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/grpc-protobuf-1.30.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/grpc-protobuf-lite-1.30.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/grpc-stub-1.30.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/guava-29.0-jre.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/guice-4.2.1-no_aop.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/guice-assistedinject-4.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/guice-multibindings-4.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/ha-api-3.1.9.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/HikariCP-3.4.5.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/httpasyncclient-osgi-4.1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/httpclient-osgi-4.5.10.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/httpcore-osgi-4.4.12.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/i18n-core-1.4.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/i18n-slf4j-1.4.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/istack-commons-runtime-3.0.8.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/ivy-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/j2objc-annotations-1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jackson-annotations-2.11.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jackson-core-2.11.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jackson-databind-2.11.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jackson-module-jsonSchema-2.11.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jakarta.activation-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jakarta.xml.bind-api-2.3.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/java-ipv6-0.14.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/javax.annotation-api-1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/javax.jms-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/javax.mail-1.6.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/javax.websocket-api-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/javax.xml.soap-api-1.4.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jaxb-api-2.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jaxb-core-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jaxb-impl-2.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jaxb-runtime-2.3.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jaxb-xjc-2.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jaxrpc-api-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jaxrpc-impl-1.1.3_01-20160905.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jaxws-api-2.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jaxws-rt-2.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jcip-annotations-1.0-1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jcl-over-slf4j-1.7.30.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/joda-time-2.10.6.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/json-20090211.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/json-resource-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/json-resource-http-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/json-schema-core-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/json-web-token-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jsr181-api-1.0-MR1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jsr305-3.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/juel-api-2.2.7.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/juel-impl-2.2.7.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/jul-to-slf4j-1.7.30.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/logback-classic-1.2.3.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/logback-core-1.2.3.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/logback-jackson-0.1.5.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/logback-json-classic-0.1.5.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/logback-json-core-0.1.5.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/management-api-3.0.0-b012.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/metrics-core-3.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/metrics-json-3.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/mimepull-1.9.7.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/monitoring-api-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/monitoring-dropwizard-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/monitoring-http-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/monitoring-json-resource-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/netty-buffer-4.1.49.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/netty-codec-4.1.49.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/netty-codec-dns-4.1.49.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/netty-codec-http-4.1.49.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/netty-codec-http2-4.1.49.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/netty-codec-socks-4.1.49.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/netty-common-4.1.49.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/netty-handler-4.1.49.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/netty-handler-proxy-4.1.49.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/netty-resolver-4.1.49.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/netty-resolver-dns-4.1.49.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/netty-transport-4.1.49.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-annotations-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-audit-context-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-audit-core-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-certs-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-config-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-encryption-support-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-exceptions-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-federation-library-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-guice-core-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-i18n-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-idpdiscovery-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-jwt-utils-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-keystore-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-ldap-utils-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-plugin-framework-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-saml2-schema-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-secrets-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-shared-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-wsfederation-schema-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openam-xacml3-schema-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/opencensus-api-0.24.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/opencensus-contrib-http-util-0.24.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/opendj-core-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/opendj-grizzly-7.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openig-admin-7.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openig-chf-7.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openig-core-7.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openig-oauth2-7.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openig-openam-7.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openig-saml-7.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openig-servlet-7.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openig-toolkit-7.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openig-uma-7.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/openig-websocket-7.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/org.apache.servicemix.bundles.javax-inject-1_2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/perfmark-api-0.19.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/policy-2.7.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/proto-google-cloud-kms-v1-0.86.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/proto-google-common-protos-1.18.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/proto-google-iam-v1-0.13.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/protobuf-java-3.12.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/protobuf-java-util-3.12.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/reactive-streams-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/resolver-20050927.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/rxjava-2.2.15.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/saaj-impl-1.4.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/secrets-api-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/secrets-backend-gcpkms-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/secrets-backend-jwkset-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/secrets-backend-keystore-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/secrets-backend-oauth2-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/secrets-backend-propertyresolver-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/security-26.0.0-20200924223446-8dc1e17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/simpleclient_common-0.0.21.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/simpleclient_dropwizard-0.0.21.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/simpleclient-0.0.21.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/stax-ex-1.7.8.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/stax2-api-3.1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/streambuffer-1.5.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/super-csv-2.4.0.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/swagger-models-1.5.16.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/threetenbp-1.4.4.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/txw2-2.3.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/tyrus-client-1.17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/tyrus-container-grizzly-client-1.17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/tyrus-core-1.17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/tyrus-spi-1.17.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/vavr-0.9.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/vavr-match-0.9.2.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/vertx-auth-common-3.9.3.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/vertx-bridge-common-3.9.3.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/vertx-core-3.9.3.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/vertx-web-3.9.3.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/vertx-web-common-3.9.3.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/woodstox-core-5.0.3.jar"/>
+	<classpathentry kind="lib" path="/Users/kian.ting/code/ForgerockHTTPClientPromiseTesting/lib/xmlsec-2.1.5.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>
