@@ -19,7 +19,7 @@ println "Beginning of test code"
 
 def sJwks
 
-return getjwks("https://httpbin.org/get").thenAsync(response -> {
+return getjwks("https://httpbinn.org/get").thenAsync(response -> {
 	if(response != null && !response.entity.isRawContentEmpty()) {
 		sJwks = response.entity.toString()
 		if(Status.OK == response.status) {
@@ -35,7 +35,7 @@ return getjwks("https://httpbin.org/get").thenAsync(response -> {
        println("Here we call the next.handle(context, request)")
 	   println("sJwks is still reacheable : " + sJwks)
 })
-.thenCatchAsync(error -> {
+.thenCatchAsync(error -> { // This error handling will never run
 	  println("AN ERROR OCCURED !!!!")
 	  error.printStackTrace()
 })
