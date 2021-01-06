@@ -1,0 +1,32 @@
+{
+  "name" : "helloworld",
+  "baseURI" : "http://employee.example.com:38080",
+  "condition" : "${matches(request.uri.path, '^^/helloworld')}",
+  "monitor" : false,
+  "handler": {
+    "comment": "OpenAM chain for Jwt URI check",
+    "name": "OpenAM Chain",
+    "type": "Chain",
+    "config": {
+      "filters": [
+        {
+          "comment": "Scripted filter for OpenAM JWK URI",
+          "name": "OpenAM JWK URI",
+          "type": "ScriptableFilter",
+          "config": {
+            "type": "application/x-groovy",
+            "file": "OpenAMJwtUri.groovy",
+            "args": {
+              "openamUrl": "http://test.example.com:18080/opensso",
+              "openamCookie": "iPlanetDirectoryPro",
+              "adminUser": "amadmin",
+              "adminPassword": "cangetin"
+            }
+          },
+          "capture": "all"
+        }
+      ],
+      "handler": "ReverseProxyHandler"
+    }
+  }
+}

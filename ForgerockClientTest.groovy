@@ -39,16 +39,11 @@ return getjwks("https://httpbinn.org/get").thenAsync(response -> {
 	}
        println("Here we call the next.handle(context, request)")
 	   println("sJwks is still reacheable : " + sJwks)
-}, ex -> {
-	println("An error Occured !!!")
-	
-	ex.printStackTrace()
-	
-})
-//.thenCatchAsync(error -> { // This error handling will never run
-//	  println("AN ERROR OCCURED !!!!")
-//	  error.printStackTrace()
-//})
+ }, throwableEx -> {
+    println("A Throwable exception Occured !!! {} ", throwableEx.getMessage())
+ }, runtimeEx -> {
+    println("A Runtime exception Occured !!! {} ", runtimeEx.getMessage())
+ })
    
 
 println "This line will never be reached!!!!"
